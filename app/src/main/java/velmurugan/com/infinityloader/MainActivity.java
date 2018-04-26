@@ -3,11 +3,11 @@ package velmurugan.com.infinityloader;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import velmurugan.com.infinity_loader.InfinityLoader;
+import velmurugan.com.infinity_loader.InfinityLoaderView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private InfinityLoader infinityLoader;
+    private InfinityLoaderView infinityLoaderView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
