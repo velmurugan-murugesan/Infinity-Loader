@@ -3,5 +3,7 @@
     <declare-styleable name="infinityloader">
         <attr name="default_color" format="color"/>
         <attr name="loader_color" format="color"/>
+        <attr name="loader_length" format="integer"/>
+        <attr name="anim_duration" format="integer"/>
     </declare-styleable>
 </resources>

@@ -13,5 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        infinityLoaderView = findViewById(R.id.infinityloader);
+        infinityLoaderView.setAnimDuration(1000);
+        infinityLoaderView.setLoaderColor(getResources().getColor(R.color.colorAccent));
+        infinityLoaderView.setStrokeWidth(20);
+
     }
 }
